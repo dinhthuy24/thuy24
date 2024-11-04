@@ -1,0 +1,228 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+.footer {
+    height: 160px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+    text-align: center;
+}
+
+.item img {
+    height: 300px;
+    width: 360px;
+    padding-top: 10px;
+}
+
+h3 {
+    color: #FF0000;
+
+}
+
+.thuy {
+
+    height: 160;
+    width: 100%;
+    background-image: url("../images/17.jpg");
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+.thuy p {
+    width: 130%;
+    text-align: center;
+    color: #eed80f;
+    font-size: 18px;
+    padding-top: 120px;
+
+}
+
+.listPage {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+.list{
+    width: 1367px;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.listPage li {
+    background-color: #ffffffBD;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.listPage .active {
+    background-color: #B192EF;
+    color: #fff;
+}
+
+.cha {
+    height: 1200;
+    width: 100%;
+    border: burlywood;
+}
+
+.con1 {
+    height: 1300px;
+    width: 20%;
+    border: solid darkgrey;
+    float: left;
+    background-image: url("../images/33.jpg");
+
+}
+
+.con1 p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-weight: bold;
+}
+
+.con2 {
+    float: right;
+    height: 1300px;
+    width: 93%;
+    background-position: 0%;
+}
+
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu>li>a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+
+.sanpham {
+    width: 23%;
+    height: 370px;
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 50px;
+    border: 1px solid #C7C5C8;
+    background-image: url("../images/34.jpg");
+}
+
+.sanpham img {
+    width: 100%;
+    height: 175px;
+    object-fit: contain;
+
+}
+
+.name {
+    color: #000080;
+    font-weight: bold;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.formDK {
+
+    width: 100%;
+    float: right;
+}
+
+
+/* Hide the carousel text when the screen is less than 576 pixels wide */
+@media (max-width: 600px) {
+    .cha {
+        padding-top: 10px;
+    }
+
+    .con1 {
+        display: none;
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+
+    .con2 {
+        width: 100%;
+        align-items: center;
+        float: none;
+        margin: 10px 3px 3px 8px;
+    }
+
+    .sanpham {
+        width: 96%;
+
+    }
+
+    .footer {
+        margin-top: 3810px;
+        height: 200px;
+
+    }
+}
+
+/* ghi chú */
+@media (max-width: 1300px) {
+    .cha {
+        padding-top: 10px;
+    }
+
+    .con1 {
+        display: none;
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+
+    .con2 {
+        width: 100%;
+        align-items: center;
+        float: none;
+        margin: 10px 3px 3px 8px;
+    }
+
+    .sanpham {
+        width: 96%;
+
+    }
+
+    .footer {
+        margin-top: 3810px;
+        height: 200px;
+
+    }
+}
